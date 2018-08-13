@@ -1,0 +1,110 @@
+.sh{
+    width: 99%;
+    /*border: 1px solid #b2b2b2;*/
+    margin: 0 auto;
+    height: 673px;
+}
+.sh .max{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.sh .max .po{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+    margin:10px 0;
+}
+.sh .max .asx{
+    display: inline-block;
+    width: 98%;
+    border-top: 1px #b2b2b2 dashed;
+    border-bottom: 1px #b2b2b2 dashed;
+    color: #a20202;
+    font-weight: bold;
+    margin: 2px 0;
+    padding-left: 2%;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.sh .max .asx span{
+    font-size: 14px;
+    color: #b2b2b2;
+    ext-overflow: ellipsis;
+}
+.sh .max .asx:hover{
+    color: #9e866b;
+}
+.hci{
+    width: 30%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.hci li{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.hci a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #b2b2b2;
+}
+/*适应*/
+@media only screen and (max-width: 720px){
+
+}
+ @media(max-width: 414px){
+     .jpc{
+         margin-top: 60px;
+     }
+     .sh{
+         width: 100%;
+         /*border: 1px solid #b2b2b2;*/
+         margin: 0 auto;
+         height: 400px;
+     }
+     .sh .max{
+         margin: 0 auto;
+         width: 100%;
+         margin-top: 10px;
+     }
+     .sh .max .po{
+         font-size: 16px;
+         text-align: center;
+         width: 100%;
+         line-height: 25px;
+         margin:2px 0;
+     }
+     .sh .max .asx{
+         display: inline-block;
+         width: 100%;
+         border-top: 1px #b2b2b2 dashed;
+         border-bottom: 1px #b2b2b2 dashed;
+         color: #a20202;
+         font-weight: bold;
+         margin: 2px 0;
+         font-size: 14px;
+         padding-top: 3px;
+         padding-bottom: 3px;
+     }
+     .sh .max .asx span{
+         font-size: 12px;
+         color: #b2b2b2;
+         ext-overflow: ellipsis;
+     }
+     .sh .max .asx:hover{
+         color: #9e866b;
+     }
+     .hci{
+         width: 99%;
+         overflow: hidden;
+         text-align: center;
+         margin: 0 auto;
+     }
+ }
+
